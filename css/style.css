@@ -1,0 +1,71 @@
+
+/* Global proprietes */
+.container3 {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+
+.dark{
+    background-color: #35424a;
+    color: #ffffff;
+    padding: 15px;
+
+      margin-top: 50px;
+}
+
+.main-col{
+    margin-right: 30px;
+    float: left;
+    width: 65%;
+}
+
+.sidebar{
+    margin-top: 20px;
+    float: right;
+    width: 30%;
+}
+
+
+
+/* Boxes */
+#boxes .container3{
+    padding: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+/* Services */
+#services #articles article{
+
+  margin-top: 40px;
+    background-color: white;
+    color: #191970;
+    padding: 15px;
+    margin-bottom: 5px;
+    border: #cccccc 1px solid;
+
+}
+
+
+/* Media Queries */
+@media(max-width: 768px){
+
+    #newsletter .button_1,
+    .main-col,
+    .sidebar,
+    #quote .button_1{
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+
+
+
+
+    #boxes .container3 {
+        display: block;
+    }
+}

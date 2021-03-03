@@ -1,0 +1,106 @@
+
+.container1{
+  position: relative;
+  width: 1100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+
+}
+.container1 .card1 {
+  position: relative;
+  max-width: 250px;
+  height: 150px;
+  background: #fff;
+  margin: 30px 10px;
+  padding: 20px 15px;
+  display: flex;
+  flex-direction:column;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+  transition: 0.3s ease-in-out;
+}
+.container1 .card1:hover {
+    height: 900px;
+}
+.container1 .card1 .imgbox{
+  position: relative;
+  width: 200px;
+  height: 200px;
+  top:-60px;
+  left: 10px;
+  z-index: 1;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+.container1 .card1 .imgbox img{
+max-width: 100%;
+border-radius: 4px;
+}
+.container1 .card1 .content1{
+  position: relative;
+  margin-top: -90px;
+  margin-bottom: 900px;
+  padding: 10px 15px 70px;
+  text-align: justify;
+  color: #FAF0E6;
+  background-color: #191970;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.3s ease-in-out;
+}
+.container1 .card1:hover .content1{
+visibility: visible;
+opacity: 1;
+margin-top: -40px;
+transition-delay: 0.3px;
+}
+
+
+
+.service1 ul {
+  list-style-type: none;
+  margin-top: 30px;
+  padding: 0;
+  text-align: justify;
+
+  text-decoration: none;
+
+}
+.service1 p  {
+  margin-top: 30px;
+  padding: 0;
+  text-align: justify;
+  color: #191970;
+}
+
+.service1 ul .active1:hover  {
+border-top: 2px solid #191970;
+color: #FFD700;
+}
+.service1 ul .active2  {
+border-top: 2px solid #191970;
+color: #FFD700;
+text-decoration-style: solid;
+
+}
+.service1 ul  {
+background-color: rgba(220,220,220 , 0.5);
+width: 90%;
+height: 40px;
+border-radius: 6px;
+
+}
+.service1 li  {
+  display: inline;
+
+    list-style-type: none;
+  color: #000;
+  text-decoration: none;
+}
+.service1 a{
+  padding-right: 40px;
+    list-style-type: none;
+    color: #191970;
+  text-decoration: none;
+}
